@@ -1,4 +1,4 @@
-setInterval(function(){
+         setInterval(function(){
          var x = Math.round(Math.random() * 255);
          var y = Math.round(Math.random() * 255);
          var z = Math.round(Math.random() * 255);       
@@ -90,6 +90,6 @@ setInterval(function(){
         }
         else
             {
-            document.write("Invalid Input")
+            document.write(" ")
             }
             
