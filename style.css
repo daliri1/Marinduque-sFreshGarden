@@ -1,29 +1,71 @@
-#random-background{
-width: 100vw;
-height: 100vh; 
-background: white;
-margin: 0px;
+
+.bodyB{
+    
+    background: green;
+    background-size: cover;
+    text-align: center;
+
+
 }
 
-button{
-width: 100px;
-height: 40px;
+
+
+
+
+.title h2{
+    
+    color: red;
+    font-family: "Brush Script MT", cursive;
+    font-size: 90px;
+    
+    
 }
-body{
-text-align: center;
-}
-        
- 
-input{
-    text-align: center;
-    width: 200px;
-    height: 40px;
+.button{
+    position: absolute;
+    top: 33%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
-header{
-    background-color: aqua;
+.container h1{
+    color: gray;
+}
+.container h2{
+    color: gray;
+    
+    
+}
+.container{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    width: 800px;
+    height: 750px;
+}
+.container img{
+     width: 700px;
+    height: 400px;
     text-align: center;
-    width: 1000px;
-    font-size: 30px;
-    height: 90px;
+    padding: 0px 0;
+    
+}
+
+.selector select{
+    
+    text-align: center;
+    color: black;
+    padding: 10px 70px;
+    width: 24%;
+    background-color: white;
+    text-decoration: none;
+    border-radius: 3px;
+}
+.buttons button{
+    color: white;
+    padding: 10px 30px;
+    background-color: cornflowerblue;
+    text-decoration: none;
+    border-radius: 10px;
 }
